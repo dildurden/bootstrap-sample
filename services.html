@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+<link rel="stylesheet" href="css/style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+<title>Services-Reel School</title>
+</head>
+<body>
+    <!-- Navigation -->
+   <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+       <div class="container-fluid">
+           <a class="navbar navbar-brand" href="index.html">Reel School</a>
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+               <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="navbarResponsive">
+               <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html"> Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html"> About</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="services.html"> Services</a></li>
+               </ul>
+               <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-success my-2 my-sm-0" type="button">Search</button>
+              </form>
+           </div>
+       </div>
+   </nav>
+   <!-- Registeration form -->
+   <section>
+        <div class="container p-2">
+            <h1 class="text-primary "> Register for a reel experience</h1>
+            <form>
+                <div class="form-group">
+                <label for="Name">Name</label>
+                <input type="text" name="Name" id="user" placeholder="Enter your name" class="form-control"></div>
+                <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Enter your email address" class="form-control"></div>
+                <div class="form-group">
+                        <label for="user">Username:</label>
+                <input type="text"  id="userName" placeholder="Enter your username" class="form-control"></div>
+                <div class="form-group">
+                        <label for="pass">Password:</label>
+                <input type="password"  id="pass" placeholder="Enter your password" class="form-control"></div>
+                <div class="form-group">
+                        <label for="mobile">Contact No:</label>
+                <input type="tel" id="mobile" placeholder="Enter your phone number" class="form-control"></div>
+                <button type="submit " class="btn btn-primary active btn-block" onclick="Register()">Submit</button>
+            </form>
+        </div>
+    </section><br><br><br><br><br><br><br><br><br><br><br><br>
+    <footer class="footer">
+            <div class="container">
+                    <p class="text-muted">&copy;Reel School,made by fans of cinema</p>
+            </div>
+    </footer>
+</body>
+</html>
